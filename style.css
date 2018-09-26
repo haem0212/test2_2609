@@ -7,3 +7,174 @@
 	height: 1800px;
 	margin: 0 auto;
 }
+.container .BOxx{
+	width: 100%;
+	height: 250px;
+	background: gray;
+	margin: 0 auto;
+}
+.container .BOxx .Contact{
+	width: 90%;
+	height: 250px;
+	margin: 0 auto;
+}
+.container .Contact .get{
+	float: left;
+	width: 26%;
+	height: 100%;
+}
+.Contact h3{
+	text-transform: uppercase;
+	color: white;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.Contact p{
+	padding: 5px;
+	color: white;
+}
+.container .Contact .rec{
+	float: left;
+	width: 24%;
+	height: 100%;
+}
+.container .Contact .rec ul li{
+	list-style: none;
+	display: block;
+	width: 100%;
+	height:20%;
+	margin-top: 10px;
+}
+.container .Contact .rec ul a{
+	text-decoration: none;
+	color: white;
+}
+.container .Contact .rec ul a:hover{
+	color: green;
+}
+.container .Contact .pop{
+	float: left;
+	width: 24%;
+	height: 100%;
+}
+.Contact .pop a.wed{
+	float: left;
+	display: block;
+	width: 60%;
+	height: 35px;
+	background: #47ed54;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 4%;
+}
+.Contact .pop a.fre{
+	float: left;
+	display: block;
+	width: 36%;
+	height: 35px;
+	background: #47ed54;
+	text-align: center;
+	line-height: 35px;
+	margin-bottom: 10px;
+}
+.Contact .pop a.dev{
+	float: left;
+	display: block;
+	width: 70%;
+	height: 35px;
+	background: #47ed54;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 4%;
+	margin-bottom: 10px;
+}
+.Contact .pop a.scr{
+	float: left;
+	display: block;
+	width: 26%;
+	height: 35px;
+	background: #47ed54;
+	text-align: center;
+	line-height: 35px;
+	margin-bottom: 10px;
+}
+.Contact .pop a.psd{
+	float: left;
+	display: block;
+	width: 20%;
+	height: 35px;
+	background: #444c45;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 4%;
+}
+.Contact .pop a.word{
+	float: left;
+	display: block;
+	width: 76%;
+	height: 35px;
+	background:#47ed54 ;
+	text-align: center;
+	line-height: 35px;
+}
+.Contact .pop a{
+	color: white;
+	text-decoration: none;
+}
+.Contact .pop a:hover{
+	color: red;
+}
+.container .Contact .gall{
+	float: left;
+	width: 24%;
+	height: 100%;
+	margin-left: 10px;
+}
+.container .Contact .gall img{
+	float: left;
+	width: 60px;
+	height: 60		px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.container .footer{
+	width: 100%;
+	height:45px;
+	background: gray;
+	border-top: 0.1px solid white;
+}
+.container .footer .content{
+	float: left;
+	width: 50%;
+	height: 45px;
+}
+.container .footer .content p{
+	color: white;
+	line-height: 45px;
+	text-align: center;
+}
+.container .footer .menu0{
+	float: left;
+	width: 50%;
+	height: 45px;
+}
+.container .footer .menu0 ul li{
+	display: block;
+	float: left;
+	width: 15%;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	color: white;
+}
+.footer .menu0 ul a li:hover{
+	color: red;
+}
+
+
+
+
+
+
+
+
