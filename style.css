@@ -1,0 +1,363 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	width: 1020px;
+	height: 1800px;
+	margin: 0 auto;
+}
+.container .header{
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+}
+.header .admin{
+	width: 100%;
+	height: 80px;
+	background: gray;
+}
+.admin .logo img{
+	float: left;
+	width: 20%;
+	height: 75px;
+}
+.admin .call{
+	float: left;
+	width: 20%;
+	height: 100%;
+	margin-left: 5%;
+	/*background: red;*/
+}
+.call img{
+	float: left;
+	display: block;
+	width: 15%;
+	height: 20px;
+	border-radius: 999px;
+	background: white;
+	margin-top: 30px;
+	margin-right: 5px;
+}
+.call p{
+	float: left;
+	line-height: 80px;
+	text-align: center;
+	color: white;
+}
+.admin .login{
+	float: left;
+	width: 10.5%;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background: #00FA9A;
+	border-radius: 8px;
+}
+.login img{
+	width: 20px;
+	height:20px;
+	float: left;
+	margin: 10px 5px;
+}
+.login p{
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+}
+.admin .register{
+	float: left;
+	width: 13.5%;
+	height: 40px;
+	margin-top: 20px;
+	background: #48D1CC;
+	margin-left: 15px;
+	border-radius: 8px;
+}
+.register p{
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 10px;
+	color: white;
+}
+.admin .search{
+	width: 24%;
+	height: 40px;
+	background: white;
+	float: right;
+	margin-top: 20px;
+	border-radius: 30px;
+}
+.search p{
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	padding-left: 10px;
+}
+.search img{
+	width: 20px;
+	height: 20px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px; 
+}
+.header .menu{
+	clear: both;
+	display: block;
+	width: 100%;
+	height: 40px;
+	background: #DCDCDC;
+}
+.menu ul {
+	display: block;
+	float: left;
+	width: 100%;
+	height: 40px;
+	list-style: none;
+	/*background: blue;*/
+}
+.menu ul li{
+	display: block;
+	float: left;
+	width: 100px;
+	height: 40px;
+	margin-right: 4%;
+	/*background: red;*/
+}
+.menu ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 40px;
+}
+.menu ul li a:hover{
+	color: red;
+}
+.header .pic {
+	display: block;
+	width: 100%;
+	height: 300px;
+	background-image: url('http://cafefcdn.com/thumb_w/650/thumb_w/640/2015/hand-shake-1421949600784.jpg');
+	background-size: cover;
+	background-position: bottom right;
+}
+.container .content{
+	clear: both;
+	width: 80%;
+	height: auto;
+	background: pink;
+	margin: 0 auto;
+}
+.content .box1{
+	margin: 0 auto;
+	width: 100%;
+	height: 50px;
+}
+.box1 ul {
+	width: 100%;
+	height: 100%;
+	background: #252B2D;
+} 
+.box1 ul li.searchs{
+	float: left;
+	width: 20%;
+	height: 100%;
+	background:#44A798;
+	list-style: none;
+}
+.box1 ul li:hover{
+	background: red;
+}
+.box1 ul li{
+	float: left;
+	width: 22%;
+	height: 100%;
+	background: #252B2D;
+	list-style: none;
+}
+.box1 ul li img{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.box1 ul li p{
+	float: left;
+	color: white;
+	font-size: 16px;
+	line-height: 50px;
+	/*margin-right: 20px;*/
+}
+.content .box2{
+	width: 100%;
+	height: 250px;
+	background: #EDEDED;
+	margin: 0 auto;
+}
+.box2 .form{
+	float: left;
+	width: 20%;
+	height: 120px;
+	/*background: red;*/
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+.box2 .diff{
+	clear: both;
+	float: left;
+}
+.form p{
+	color: black;
+	font-size: 16px;
+	line-height:20px;
+	padding-top: 20px;
+}
+.form input{
+	width: 98%;
+	height: 30px;
+	background: white;
+	color: gray;
+}
+.box2 .diff1{
+	padding-top: 60px;
+}
+.form input.b1{
+	width: 98%;
+	height: 30px;
+	background: #44A798;
+	color: white;
+	border-radius: 5px;
+    border: none;
+    font-size: 12px;
+}
+.container .cons{
+	clear: both;
+	margin: 0 auto;
+	width: 80%;
+	height: 500px;
+	/*background: violet;*/
+}
+.container .cons .box3{
+	width: 100%;
+	height: 250px;
+	margin: 0 auto;
+}
+.container .cons h3{
+	padding-bottom: 30px;
+	padding-left: 10%;
+}
+.box3 .box{
+	float: left;
+	width: 25%;
+	height: 210px;
+	/*background: yellow;*/
+	margin-top: 10px;
+}
+.box .icon{
+	width: 100%;
+	height: auto;
+}
+.icon img{
+	float: left;
+	display: block;
+	width: 30px;
+	height: 30px;
+	/*background: green;*/
+	margin-right: 20px;
+}
+.icon h4{
+	float: left;
+	display: block;
+	width: 60%;
+	height: 30px;
+	line-height: 30px;
+	/*background: blue;*/
+}
+.box .menu2{
+	clear: both;
+	width: auto;
+	height: auto;
+	margin-top: 20px;
+	/*background: pink;*/
+	margin-left: 50px;
+}
+.box .menu2 ul{
+	width:60%;
+	height: 150px;
+	margin-top: 40px;
+}
+.box .menu2 ul li{
+	width: auto;
+	height: auto;
+	display: block;
+	list-style: none;
+	margin-top: 12px;
+}
+.box .menu2 ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+}
+.box .menu2 ul li a:hover{
+	color: red;
+}
+.box3 .boxx{
+	float: right;
+	width: 25%;
+	height: 190px;
+	background: #90EE90;
+}
+.boxx b{
+	display: block;
+	margin: 0 auto;
+	width: auto;
+	height: 55px;
+	/*background: blue;*/
+	line-height: 60px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+.boxx p{
+	display: block;
+	margin: 0 auto;
+	width: auto;
+	height: 60px;
+	/*background: red;*/
+	text-align: center;
+	line-height: 30px;
+	color: white;
+	font-size: 14px;
+}
+.boxx a{
+	margin: 0 auto;
+	display: block;
+	width: 150px;
+	height: 35px;
+	background: #A9A9A9;
+	margin-top: 15px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 35px;
+	color: white;
+	border-radius: 8px;
+	font-size: 15px;
+}
+.boxx a:hover{
+	background: yellow;
+	color: black;
+}
+.boxx a img{
+	float: left;
+	display: block;
+	width: 16px;
+	height: 16px;
+/*	background: red;*/
+	margin-left: 5px;
+	padding-top: 10px;
+}
